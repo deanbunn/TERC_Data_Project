@@ -1,0 +1,6 @@
+USE TERC;
+
+SELECT *
+FROM CR1000_NS_Cascade_Wifi_LakeData
+ORDER BY TmStamp desc
+LIMIT 5

@@ -1,0 +1,5 @@
+USE TERCDB;
+
+CALL sp_terc_rcrd1_data('2016-12-02 07:43:00', 5, 8);
+
+#SELECT * FROM TERC_RCRD1;

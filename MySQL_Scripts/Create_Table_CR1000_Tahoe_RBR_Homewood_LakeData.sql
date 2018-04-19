@@ -1,0 +1,35 @@
+USE TERC;
+
+CREATE TABLE CR1000_Tahoe_RBR_Homewood_LakeData
+(
+	ld_id bigint not null auto_increment,
+    TmStamp datetime not null,
+    RecNum bigint null,
+    XR_T1 real NULL,
+	XR_T2 real NULL,
+	XR_T3 real NULL,
+	XR_T4 real NULL,
+	XR_T5 real NULL,
+	XR_T6 real NULL,
+	XR_T7 real NULL,
+	XR_T8 real NULL,
+	XR_T9 real NULL,
+	XR_T10 real NULL,
+	XR_T11 real NULL,
+	XR_T12 real NULL,
+	XR_T13 real NULL,
+	XR_T14 real NULL,
+	XR_T15 real NULL,
+	XR_T16 real NULL,
+	XR_DO2 real NULL,
+	XR_Raw_Z real NULL,
+	XR_Batt real NULL,
+	BP_mmHg real NULL,
+	O2_uM_corr_T16 real NULL,
+	Pct_Sat_T1 real NULL,
+	O2_uM_cal_T1 real NULL,
+	Depth_m4C real NULL,
+	BP_mmHg_Avg real NULL,
+	BP_mmHgAVG real NULL,
+    primary key (ld_id)
+);
