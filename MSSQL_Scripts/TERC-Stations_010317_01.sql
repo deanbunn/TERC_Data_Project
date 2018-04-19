@@ -1,9 +1,0 @@
-USE [TERC-Stations]
-GO
-
-SELECT terccmd FROM TERCExport;
-
---2254504
---1494911
---2138303
-
